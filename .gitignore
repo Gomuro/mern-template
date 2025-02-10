@@ -1,0 +1,33 @@
+# Node modules (для backend та frontend)
+node_modules/
+**/node_modules/
+
+# Лог-файли
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Файли середовища
+.env
+.env.local
+.env.*.local
+
+# Збірки і результати компіляції
+dist/
+build/
+
+# Файли, згенеровані Vite
+dist/
+
+# Файли системи (macOS)
+.DS_Store
+
+# Налаштування редакторів коду/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Тести
+coverage/
